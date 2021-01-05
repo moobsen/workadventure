@@ -17,7 +17,17 @@ triggered when you move next to a colleague).
 
 ## Getting started
 
-Install Docker.
+Install Docker : https://docs.docker.com/get-docker/
+Install docker-compose : https://docs.docker.com/compose/install/
+
+**Add your local environment variable**
+Run:
+
+```
+cp .env.template .env
+```
+_``If you want to deploy on the dev server, you must update HOST_NAME in your .env with your private domain (workadventure.localhost => yourdomain.com).`` 
+**_``Don't forget to add an entries in DNS like this: *.yourdomain.com. The different subdomains deployed for WorkAdventure are: play. ; pusher. ; maps. ; api. ; uploader. ;``_**
 
 Run:
 
